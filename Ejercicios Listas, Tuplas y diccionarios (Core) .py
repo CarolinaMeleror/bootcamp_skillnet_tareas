@@ -50,7 +50,7 @@ for venta in ventas:
     print(f"Cantidad: {venta['cantidad']}, Precio: {venta['precio']}")
     IngresosTotales += venta["cantidad"] * venta["precio"]
     print("___________________________")
-print(f"Ingresos Totales: ${IngresosTotales:0f}")
+print(f"Ingresos Totales: ${IngresosTotales:2f}")
 print("_____________________________________________________________")
 
 # Análisis del Producto Más Vendido:
@@ -94,13 +94,13 @@ for venta in ventas:
 
 print("\nDiccionario de Suma de Precios y Cantidad por Producto:")
 for producto, (suma_precios, total_cantidad) in precios_por_producto.items():
-    print(f"  {producto}: (Suma de Precios: ${suma_precios:.0f}, Cantidad Total: {total_cantidad})")
+    print(f"  {producto}: (Suma de Precios: ${suma_precios:.2f}, Cantidad Total: {total_cantidad})")
 
 print("\nPrecio Promedio de Venta por Producto:")
 for producto, (suma_precios, total_cantidad) in precios_por_producto.items():
     if total_cantidad > 0:
         precio_promedio = suma_precios / total_cantidad
-        print(f"  {producto}: ${precio_promedio:.0f}")
+        print(f"  {producto}: ${precio_promedio:.2f}")
     else:
         print(f"  {producto}: No se vendieron unidades.")
 print("_____________________________________________________________")
@@ -122,7 +122,7 @@ for venta in ventas:
 
 print("\nIngresos Total por Día:")
 for fecha, ingresos in Ingresos_Por_Dia.items():
-    print(f"  {fecha}: ${ingresos:.0f}")
+    print(f"  {fecha}: ${ingresos:.2f}")
 print("_____________________________________________________________")
 
 
@@ -157,6 +157,6 @@ print("\nResumen de Ventas por Producto:")
 for producto, resumen in Resumen_Ventas.items():
     print(f"  {producto}:")
     print(f"    Cantidad Total: {resumen['cantidad_total']}")
-    print(f"    Ingresos Totales: ${resumen['ingresos_totales']:.0f}")
-    print(f"    Precio Promedio: ${resumen['precio_promedio']:.0f}")
+    print(f"    Ingresos Totales: ${resumen['ingresos_totales']:.2f}")
+    print(f"    Precio Promedio: ${resumen['precio_promedio']:.2f}")
 print("_____________________________________________________________")
