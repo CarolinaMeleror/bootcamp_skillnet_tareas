@@ -1,0 +1,95 @@
+[{'fecha': '2024-01-11', 'producto': 'Harina', 'cantidad': 10, 'precio': 2200.0}, {'fecha': '2024-01-15', 'producto': 'Azucar', 'cantidad': 10, 'precio': 15.0}, {'fecha': '2024-02-20', 'producto': 'Crema', 'cantidad': 5, 'precio': 30.0}, {'fecha': '2024-02-11', 'producto': 'Harina', 'cantidad': 3, 'precio': 120.0}, {'fecha': '2024-03-17', 'producto': 'Azucar', 'cantidad': 2, 'precio': 30.0}, {'fecha': '2024-03-24', 'producto': 'Crema', 'cantidad': 10, 'precio': 250.0}, {'fecha': '2024-03-10', 'producto': 'Harina', 'cantidad': 3, 'precio': 120.0}, {'fecha': '2024-04-20', 'producto': 'Mantequilla', 'cantidad': 3, 'precio': 50.0}, {'fecha': '2024-04-29', 'producto': 'EsenciaVainilla', 'cantidad': 2, 'precio': 12.0}, {'fecha': '2024-05-23', 'producto': 'Mantequilla', 'cantidad': 2, 'precio': 12.0}, {'fecha': '2024-05-08', 'producto': 'Azucar', 'cantidad': 5, 'precio': 50.0}]
+______________________________________________________________________________
+Venta actual: {'fecha': '2024-01-11', 'producto': 'Harina', 'cantidad': 10, 'precio': 2200.0}
+Cantidad: 10, Precio: 2200.0
+___________________________
+Venta actual: {'fecha': '2024-01-15', 'producto': 'Azucar', 'cantidad': 10, 'precio': 15.0}
+Cantidad: 10, Precio: 15.0
+___________________________
+Venta actual: {'fecha': '2024-02-20', 'producto': 'Crema', 'cantidad': 5, 'precio': 30.0}
+Cantidad: 5, Precio: 30.0
+___________________________
+Venta actual: {'fecha': '2024-02-11', 'producto': 'Harina', 'cantidad': 3, 'precio': 120.0}
+Cantidad: 3, Precio: 120.0
+___________________________
+Venta actual: {'fecha': '2024-03-17', 'producto': 'Azucar', 'cantidad': 2, 'precio': 30.0}
+Cantidad: 2, Precio: 30.0
+___________________________
+Venta actual: {'fecha': '2024-03-24', 'producto': 'Crema', 'cantidad': 10, 'precio': 250.0}
+Cantidad: 10, Precio: 250.0
+___________________________
+Venta actual: {'fecha': '2024-03-10', 'producto': 'Harina', 'cantidad': 3, 'precio': 120.0}
+Cantidad: 3, Precio: 120.0
+___________________________
+Venta actual: {'fecha': '2024-04-20', 'producto': 'Mantequilla', 'cantidad': 3, 'precio': 50.0}
+Cantidad: 3, Precio: 50.0
+___________________________
+Venta actual: {'fecha': '2024-04-29', 'producto': 'EsenciaVainilla', 'cantidad': 2, 'precio': 12.0}
+Cantidad: 2, Precio: 12.0
+___________________________
+Venta actual: {'fecha': '2024-05-23', 'producto': 'Mantequilla', 'cantidad': 2, 'precio': 12.0}
+Cantidad: 2, Precio: 12.0
+___________________________
+Venta actual: {'fecha': '2024-05-08', 'producto': 'Azucar', 'cantidad': 5, 'precio': 50.0}
+Cantidad: 5, Precio: 50.0
+___________________________
+Ingresos Totales: $26028.000000
+_____________________________________________________________
+
+Producto más vendido: Azucar (Cantidad: 17)
+_____________________________________________________________
+
+Calculando el Promedio de Precio por Producto:
+
+Diccionario de Suma de Precios y Cantidad por Producto:
+  Harina: (Suma de Precios: $22720, Cantidad Total: 16)
+  Azucar: (Suma de Precios: $460, Cantidad Total: 17)
+  Crema: (Suma de Precios: $2650, Cantidad Total: 15)
+  Mantequilla: (Suma de Precios: $174, Cantidad Total: 5)
+  EsenciaVainilla: (Suma de Precios: $24, Cantidad Total: 2)
+
+Precio Promedio de Venta por Producto:
+  Harina: $1420
+  Azucar: $27
+  Crema: $177
+  Mantequilla: $35
+  EsenciaVainilla: $12
+_____________________________________________________________
+
+Calculando Ingresos por Día:
+
+Ingresos Total por Día:
+  2024-01-11: $22000
+  2024-01-15: $150
+  2024-02-20: $150
+  2024-02-11: $360
+  2024-03-17: $60
+  2024-03-24: $2500
+  2024-03-10: $360
+  2024-04-20: $150
+  2024-04-29: $24
+  2024-05-23: $24
+  2024-05-08: $250
+_____________________________________________________________
+
+Resumen de Ventas por Producto:
+  Harina:
+    Cantidad Total: 16
+    Ingresos Totales: $22720
+    Precio Promedio: $1420
+  Azucar:
+    Cantidad Total: 17
+    Ingresos Totales: $460
+    Precio Promedio: $27
+  Crema:
+    Cantidad Total: 15
+    Ingresos Totales: $2650
+    Precio Promedio: $177
+  Mantequilla:
+    Cantidad Total: 5
+    Ingresos Totales: $174
+    Precio Promedio: $35
+  EsenciaVainilla:
+    Cantidad Total: 2
+    Ingresos Totales: $24
+    Precio Promedio: $12
