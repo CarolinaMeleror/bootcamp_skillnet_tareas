@@ -42,11 +42,12 @@ print("_______________________")
 
 # 2. Iterar a través de una lista de diccionarios
 
-def iterarDiccionario(lista):
+def IterarDiccionario(lista):
     for diccionario in lista:
+        output = ""
         for llave, valor in diccionario.items():
-            print(f"{llave}: {valor}", end=", ")
-        print()
+            output += f"{llave}: {valor}, "
+        print(output[:-2])
 
 
 print("2. Iterar a través de una lista de diccionarios:")
@@ -54,23 +55,25 @@ cantantes_ejemplo = [
     {"nombre": "Ricky Martin", "pais": "Puerto Rico"},
     {"nombre": "Chayanne", "pais": "Puerto Rico"},
     {"nombre": "José José", "pais": "México"},
-    {"nombre": "Juan Luis Guerra", "pais": "República Dominicana"}]
-iterarDiccionario(cantantes_ejemplo)
+    {"nombre": "Juan Luis Guerra", "pais": "República Dominicana"}
+]
+IterarDiccionario(cantantes_ejemplo)
 
-print("\nBONUS: Formato específico:")
+
+print("_______________________")
 
 
-def iterarDiccionarioBonus(lista):
+def IterarDiccionarioBonus(lista):
     for diccionario in lista:
         output = ""
         for llave, valor in diccionario.items():
             output += f"{llave} - {valor}, "
-        print(output[:-2])  # Eliminar la última coma y espacio
+        print(output[:-2])
 
 
-iterarDiccionarioBonus(cantantes_ejemplo)
+IterarDiccionarioBonus(cantantes_ejemplo)
+print("_______________________")
 
-print("-" * 30)
 
 # 3. Obtener valores de una lista de diccionarios
 
@@ -82,27 +85,30 @@ def iterarDiccionario2(llave, lista):
             print(diccionario[llave])
 
 
-print("\nEjemplo iterarDiccionario2('nombre', cantantes_ejemplo):")
+print("\nResultado iterarDiccionario2('nombre', cantantes_ejemplo):")
 iterarDiccionario2("nombre", cantantes_ejemplo)
 
-print("\nEjemplo iterarDiccionario2('pais', cantantes_ejemplo):")
+print("\nResultado iterarDiccionario2('pais', cantantes_ejemplo):")
 iterarDiccionario2("pais", cantantes_ejemplo)
 
-print("-" * 30)
+
+print("_______________________")
 
 # 4. Iterar a través de un diccionario con valores de lista
 
 
 def imprimirInformacion(diccionario):
-    print("4. Iterar a través de un diccionario con valores de lista:")
     for llave, lista_valores in diccionario.items():
         tamaño = len(lista_valores)
         print(f"{tamaño} {llave.upper()}")
         for valor in lista_valores:
             print(valor)
+        print(" ")
 
 
 costa_rica = {
     "ciudades": ["San José", "Limón", "Cartago", "Puntarenas"],
     "comidas": ["gallo pinto", "casado", "tamales", "chifrijo", "olla de carne"]}
 imprimirInformacion(costa_rica)
+
+print("_______________________")
