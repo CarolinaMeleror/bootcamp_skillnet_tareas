@@ -42,54 +42,54 @@ _____________________________________________________________
 Calculando el Promedio de Precio por Producto:
 
 Diccionario de Suma de Precios y Cantidad por Producto:
-  Harina: (Suma de Precios: $22720, Cantidad Total: 16)
-  Azucar: (Suma de Precios: $460, Cantidad Total: 17)
-  Crema: (Suma de Precios: $2650, Cantidad Total: 15)
-  Mantequilla: (Suma de Precios: $174, Cantidad Total: 5)
-  EsenciaVainilla: (Suma de Precios: $24, Cantidad Total: 2)
+  Harina: (Suma de Precios: $22720.00, Cantidad Total: 16)
+  Azucar: (Suma de Precios: $460.00, Cantidad Total: 17)
+  Crema: (Suma de Precios: $2650.00, Cantidad Total: 15)
+  Mantequilla: (Suma de Precios: $174.00, Cantidad Total: 5)
+  EsenciaVainilla: (Suma de Precios: $24.00, Cantidad Total: 2)
 
 Precio Promedio de Venta por Producto:
-  Harina: $1420
-  Azucar: $27
-  Crema: $177
-  Mantequilla: $35
-  EsenciaVainilla: $12
+  Harina: $1420.00
+  Azucar: $27.06
+  Crema: $176.67
+  Mantequilla: $34.80
+  EsenciaVainilla: $12.00
 _____________________________________________________________
 
 Calculando Ingresos por Día:
 
 Ingresos Total por Día:
-  2024-01-11: $22000
-  2024-01-15: $150
-  2024-02-20: $150
-  2024-02-11: $360
-  2024-03-17: $60
-  2024-03-24: $2500
-  2024-03-10: $360
-  2024-04-20: $150
-  2024-04-29: $24
-  2024-05-23: $24
-  2024-05-08: $250
+  2024-01-11: $22000.00
+  2024-01-15: $150.00
+  2024-02-20: $150.00
+  2024-02-11: $360.00
+  2024-03-17: $60.00
+  2024-03-24: $2500.00
+  2024-03-10: $360.00
+  2024-04-20: $150.00
+  2024-04-29: $24.00
+  2024-05-23: $24.00
+  2024-05-08: $250.00
 _____________________________________________________________
 
 Resumen de Ventas por Producto:
   Harina:
     Cantidad Total: 16
-    Ingresos Totales: $22720
-    Precio Promedio: $1420
+    Ingresos Totales: $22720.00
+    Precio Promedio: $1420.00
   Azucar:
     Cantidad Total: 17
-    Ingresos Totales: $460
-    Precio Promedio: $27
+    Ingresos Totales: $460.00
+    Precio Promedio: $27.06
   Crema:
     Cantidad Total: 15
-    Ingresos Totales: $2650
-    Precio Promedio: $177
+    Ingresos Totales: $2650.00
+    Precio Promedio: $176.67
   Mantequilla:
     Cantidad Total: 5
-    Ingresos Totales: $174
-    Precio Promedio: $35
+    Ingresos Totales: $174.00
+    Precio Promedio: $34.80
   EsenciaVainilla:
     Cantidad Total: 2
-    Ingresos Totales: $24
-    Precio Promedio: $12
+    Ingresos Totales: $24.00
+    Precio Promedio: $12.00
